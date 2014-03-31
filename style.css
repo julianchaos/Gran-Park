@@ -10,3 +10,90 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: 
 Text Domain: gran.park
 */
+
+/*.container {}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}*/
+
+body {
+	background-color: #333;
+}
+
+/* HEADER */
+header {
+	height: 107px;
+	background: transparent url(images/menu.bg.png);
+}
+header ul {
+	background-color: rgba(30, 30, 30, 0.8);
+}
+header .navbar-default {
+	border-width: 0;
+	background-color: transparent
+}
+header .navbar-default .navbar-toggle {
+	border-color: #FFF;
+	margin-right: 0;
+	margin-top: 60px;
+	
+}
+header .navbar-default .navbar-toggle:focus,
+header .navbar-default .navbar-toggle:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+header .navbar-default .navbar-toggle .icon-bar {
+	background: #FFF;
+}
+header .navbar-brand {
+	padding: 0;
+}
+header h1 {
+	margin: 0;
+}
+
+header .navbar-collapse {
+	border-width: 0;
+	box-shadow: 0 0 0 transparent;
+}
+header .navbar-default .navbar-nav > li > a {
+	color: #FFF;
+	border: transparent 1px solid;
+}
+header .navbar-default .navbar-nav > li > a:hover {
+	color: #FFF;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .active > a:hover {
+	color: #FFF;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-color: #FFF;
+}
+@media (min-width: 768px) {
+	header #navbar-collapse {
+		float: right;
+	}
+
+	header ul {
+		background-color: transparent;
+	}
+	header .navbar-nav > li > a {
+		border-radius: 5px;
+		margin-top: 30px;
+	}
+	
+	
+}

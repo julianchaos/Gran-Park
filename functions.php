@@ -39,6 +39,9 @@ function granpark_setup() {
 	
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menu( 'primary', __( 'Primary Menu', 'granpark' ) );
+	
+	// Register custom navigation walker
+	require_once('inc/wp_bootstrap_navwalker.php');
 }
 add_action( 'after_setup_theme', 'granpark_setup' );
 
@@ -49,11 +52,13 @@ add_action( 'after_setup_theme', 'granpark_setup' );
  * @return void
  */
 function granpark_scripts_styles() {
+	//jQuery
+	wp_enqueue_script( 'granpark-jquery', '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js', array(), '1.11.0', true);
 	/*
 	 * Bootstrap
 	 * url: http://getbootstrap.com/
 	 */
-	wp_enqueue_script( 'granpark-bootstrap', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js', array(), '3.1.1', true);
+	wp_enqueue_script( 'granpark-bootstrap', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js', array('granpark-jquery'), '3.1.1', true);
 	wp_enqueue_style( 'granpark-bootstrap', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', array(), '3.1.1');
 }
 add_action( 'wp_enqueue_scripts', 'granpark_scripts_styles' );
