@@ -30,19 +30,15 @@ Text Domain: gran.park
 
 body {
 	background-color: #333;
+	min-width: 300px;
 }
 
 /* HEADER */
 header {
 	height: 107px;
-	background: transparent url(images/menu.bg.png);
 }
 header ul {
 	background-color: rgba(30, 30, 30, 0.8);
-}
-header .navbar-default {
-	border-width: 0;
-	background-color: transparent
 }
 header .navbar-default .navbar-toggle {
 	border-color: #FFF;
@@ -68,20 +64,7 @@ header .navbar-collapse {
 	border-width: 0;
 	box-shadow: 0 0 0 transparent;
 }
-header .navbar-default .navbar-nav > li > a {
-	color: #FFF;
-	border: transparent 1px solid;
-}
-header .navbar-default .navbar-nav > li > a:hover {
-	color: #FFF;
-	background-color: rgba(255, 255, 255, 0.3);
-}
-header .navbar-default .navbar-nav > .active > a,
-header .navbar-default .navbar-nav > .active > a:hover {
-	color: #FFF;
-	background-color: rgba(255, 255, 255, 0.3);
-	border-color: #FFF;
-}
+
 @media (min-width: 768px) {
 	header #navbar-collapse {
 		float: right;
@@ -91,9 +74,30 @@ header .navbar-default .navbar-nav > .active > a:hover {
 		background-color: transparent;
 	}
 	header .navbar-nav > li > a {
-		border-radius: 5px;
 		margin-top: 30px;
 	}
 	
-	
+}
+
+/* FOOTER */
+footer {
+	padding-bottom: 20px;
+}
+footer .navbar-nav{
+	padding-left: 0;
+	max-width: 300px;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	footer .navbar-nav {
+		max-width: none;
+	}
+}
+@media (min-width: 992px) {
+	footer .navbar-nav {
+		float: right;
+	}
+	footer .navbar-nav > li > a {
+		margin-top: 30px;
+	}
 }

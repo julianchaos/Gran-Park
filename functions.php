@@ -60,5 +60,12 @@ function granpark_scripts_styles() {
 	 */
 	wp_enqueue_script( 'granpark-bootstrap', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js', array('granpark-jquery'), '3.1.1', true);
 	wp_enqueue_style( 'granpark-bootstrap', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', array(), '3.1.1');
+
+	//Backgrounds
+	wp_enqueue_style( 'granpark-background', get_template_directory_uri() . '/css/background.css', array(), '1.0');
+	
+	//Navbar-default overide
+	wp_enqueue_style( 'granpark-nav', get_template_directory_uri() . '/css/navbar-default.css', array('granpark-bootstrap'), '1.0');
+	
 }
 add_action( 'wp_enqueue_scripts', 'granpark_scripts_styles' );

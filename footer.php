@@ -6,16 +6,37 @@
  */
 ?>
 			<footer>
-				<div id="footer" role="contentinfo">
-				<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
-					<p>
-						<?php printf(__('%1$s is proudly powered by %2$s'), get_bloginfo('name'),
-						'<a href="http://wordpress.org/">WordPress</a>'); ?>
-						<br /><?php printf(__('%1$s and %2$s.'), '<a href="' . get_bloginfo('rss2_url') . '">' . __('Entries (RSS)') . '</a>', '<a href="' . get_bloginfo('comments_rss2_url') . '">' . __('Comments (RSS)') . '</a>'); ?>
-						<!-- <?php printf(__('%d queries. %s seconds.'), get_num_queries(), timer_stop(0, 3)); ?> -->
-					</p>
+				<div class="container">
+					<nav class="navbar navbar-default" role='navigation'>
+						<div class='row'>
+							<div class='text-center col-xs-12 col-md-1'>
+								<a href="<?php echo home_url() ?>/" title="<?php bloginfo('name') ?>">
+									<img src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="<?php bloginfo('name') ?>" />
+								</a>
+							</div>
+							<div class='text-center col-xs-12 col-md-11 '>
+<?php
+wp_nav_menu( array( 
+	'menu' => 'top_menu',
+	'depth' => 2,
+	'container' => false,
+	'menu_class' => 'nav navbar-nav',
+	//process nav menu using our custom nav walker
+	'walker' => new wp_bootstrap_navwalker() 
+	) );
+?>
+							</div>
+						</div>
+					</nav>
+					<div class="row" role="contentinfo">
+						<div class="col-xs-4 col-xs-offset-2 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-4">
+							<img src="<?php bloginfo('template_directory') ?>/images/logo-cc.png" class="img-responsive" alt="Cúbiculo Criativo" />
+						</div>
+						<div class="col-xs-4 col-sm-3 col-md-2">
+							<img src="<?php bloginfo('template_directory') ?>/images/logo-rds.png" class="img-responsive" alt="RDS" />
+						</div>
+					</div>
 				</div>
-
 			</footer>
 		</div><!-- #page -->
 	<?php wp_footer(); ?>

@@ -1,0 +1,16 @@
+/*
+Theme Name: Gran Park
+Theme URI: http://www.ndrade.com.br/
+Author: Julian Andrade
+Author URI: http://www.ndrade.com.br/
+Description: Tema para o empreendimento Gran Park
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: gran.park
+*/
+
+header, footer {
+	background: transparent url(../images/menu.bg.png);
+}
