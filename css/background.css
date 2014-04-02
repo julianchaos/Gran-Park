@@ -14,3 +14,7 @@ Text Domain: gran.park
 header, footer {
 	background: transparent url(../images/menu.bg.png);
 }
+
+article {
+	background: transparent url(../images/bg-madeira-branca.jpg);
+}
