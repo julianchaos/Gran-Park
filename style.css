@@ -36,6 +36,9 @@ body {
 /* HEADER */
 header {
 	height: 107px;
+	position: relative;
+	z-index: 16;
+	box-shadow: #333 0 0 6px;
 }
 header ul {
 	background-color: rgba(30, 30, 30, 0.8);
@@ -99,5 +102,67 @@ footer .navbar-nav{
 	}
 	footer .navbar-nav > li > a {
 		margin-top: 30px;
+	}
+}
+
+/* PAGES */
+article {
+	color: #2e3f2c;
+}
+article.commom-content {
+	padding: 15px 0;
+}
+
+/* CONTATO */
+article.commom-content > div > div > h3 {
+	margin-top: 0;
+	text-align: center;
+}
+.wwacf_form_container {
+	width: 290px;
+	background: none;
+	border-width: 0;
+}
+.wwacf_form_container .form_title:first-of-type {
+	display: none;
+}
+.wwacf_form_container .form_title {
+	background-color: #55760e;
+	text-align: center;
+}
+.wwacf_form_container .label_field {
+	color: #2e3f2c;
+	font-weight: normal;
+	width: auto;
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+.wwacf_form_container input[type="text"], 
+.wwacf_form_container input[type="password"], 
+.wwacf_form_container textarea, 
+.wwacf_form_container select {
+	background: none;
+	background-color: #2e3f2c;
+}
+.wwacf_form_container input[type="text"], 
+.wwacf_form_container input[type="password"], 
+.wwacf_form_container textarea {
+	width: 100%;
+	box-shadow: inset 0 0 6px #000;
+}
+.wwacf_form_container .send_button {
+	background: none;
+	background-color: #55760e;
+	float: right;
+	margin-top: -10px;
+	box-shadow: 0 0 6px #333;
+}
+.wwacf_form_container .send_button + div {
+	clear: both;
+	box-shadow: 0 0 6px #333;
+}
+@media (min-width: 768px) {
+	.wwacf_form_container {
+		width: 530px;
 	}
 }
