@@ -112,6 +112,10 @@ article {
 article.commom-content {
 	padding: 15px 0;
 }
+article .img-responsive {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* CONTATO */
 article.commom-content > div > div > h3 {
