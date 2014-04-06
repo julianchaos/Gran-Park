@@ -11,8 +11,11 @@ Tags:
 Text Domain: gran.park
 */
 
-header, footer {
-	background: transparent url(../images/menu.bg.png);
+header {
+	background: transparent url(../images/bg-menu-superior.png);
+}
+footer {
+	background: transparent url(../images/bg-footer.png);
 }
 
 article {

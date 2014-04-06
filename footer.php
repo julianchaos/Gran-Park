@@ -11,7 +11,7 @@
 						<div class='row'>
 							<div class='text-center col-xs-12 col-md-1'>
 								<a href="<?php echo home_url() ?>/" title="<?php bloginfo('name') ?>">
-									<img src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="<?php bloginfo('name') ?>" />
+									<img src="<?php bloginfo('template_directory') ?>/images/logo-footer.png" alt="<?php bloginfo('name') ?>" />
 								</a>
 							</div>
 							<div class='text-center col-xs-12 col-md-11 '>
