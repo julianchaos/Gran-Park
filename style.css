@@ -117,6 +117,46 @@ article .img-responsive {
 	margin-right: auto;
 }
 
+/* FRONT-PAGE */
+article.front-page h2 {
+	margin: 0;
+	padding: 20px 0;
+	background-color: #FFF;
+}
+article.front-page #primary {
+	color: #FFF;
+	padding: 20px 0;
+	box-shadow: 0 6px 6px #666;
+}
+article.front-page #primary h2 {
+	background-color: transparent;
+}
+article.front-page #secondary {
+	padding: 20px 0;
+}
+article.front-page #secondary h3 {
+	color: #941e76;
+}
+
+@media (min-width: 768px) {
+	article.front-page #primary {
+		padding: 30px 0;
+	}
+}
+@media (min-width: 992px) {
+	article.front-page #primary {
+		padding: 40px 0;
+	}
+	article.front-page #secondary {
+		padding-bottom: 30px;
+	}
+}
+@media (min-width: 1200px) {
+	article.front-page #secondary {
+		padding-bottom: 40px;
+	}
+}
+
 /* CONTATO */
 article.commom-content > div > div > h3 {
 	margin-top: 0;

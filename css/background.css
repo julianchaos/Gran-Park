@@ -18,3 +18,19 @@ header, footer {
 article {
 	background: transparent url(../images/bg-madeira-branca.jpg);
 }
+
+article.front-page {
+	background: #FFF none;
+}
+article.front-page #primary,
+article.front-page #secondary {
+	background: transparent url(../images/home/bg-central-01.png) no-repeat center center ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+article.front-page #secondary {
+	background-image: url(../images/home/bg-central-02.jpg);
+}
