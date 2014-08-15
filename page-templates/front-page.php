@@ -26,22 +26,13 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="<?php bloginfo('template_directory') ?>/images/slider/01.jpg" alt="..." />
-				<div class="carousel-caption">
-					<h3>teste</h3>
-				</div>
+				<img src="<?php bloginfo('template_directory') ?>/images/slider/Slider-01.jpg" alt="..." />
 			</div>
 			<div class="item">
-				<img src="<?php bloginfo('template_directory') ?>/images/slider/02.jpg" alt="..." />
-				<div class="carousel-caption">
-					<h3>teste</h3>
-				</div>
+				<img src="<?php bloginfo('template_directory') ?>/images/slider/Slider-02.jpg" alt="..." />
 			</div>
 			<div class="item">
-				<img src="<?php bloginfo('template_directory') ?>/images/slider/03.jpg" alt="..." />
-				<div class="carousel-caption">
-					<h3>teste</h3>
-				</div>
+				<img src="<?php bloginfo('template_directory') ?>/images/slider/Slider-03.jpg" alt="..." />
 			</div>
 		</div>
 
@@ -59,10 +50,10 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-7">
 					<h3>... e, muitas vezes, estes lugares estão pertinho de nós.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna eget leo hendrerit ullamcorper. Etiam porta nisi justo, id tincidunt felis blandit id. Nunc dignissim ut sem a rutrum. Donec lorem nibh, lacinia in odio sed, faucibus sollicitudin dolor. Donec volutpat eget ligula et tempor.
-					<p>Vivamus pharetra nunc vitae luctus commodo. Nullam sit amet risus ut lorem aliquet semper. Morbi quis velit vel risus dapibus aliquet et in dolor. Suspendisse vestibulum lacinia erat, ac imperdiet magna fermentum pellentesque. Integer vitae massa at lorem egestas aliquam.
-					<p>Sed euismod ipsum eu imperdiet convallis. Aliquam aliquam varius justo, non porta arcu sollicitudin in. Aliquam sed consectetur mi. Nam urna dui, consequat sit amet augue vel, pulvinar tempus turpis. Integer in iaculis nisl, eget imperdiet purus. Nulla eu dapibus nunc. Proin sed ipsum ligula. 
-					<p>Proin nec sem erat. Phasellus libero lectus, rutrum malesuada tortor a, convallis condimentum enim. Vestibulum mattis venenatis lacus, a molestie lorem vestibulum a. Suspendisse fermentum rhoncus nisl et ultricies. Ut tellus quam, volutpat nec mauris vel, imperdiet ornare felis. Maecenas sagittis ultrices ante, vel viverra est vestibulum id. Nulla facilisi. Sed arcu dui, venenatis sit amet consectetur nec, tempus porta justo. Nullam facilisis odio a purus iaculis placerat.
+					<p>Desde criança nós sonhamos com lugares incríveis. As brincadeiras queestimulam a imaginação, nos levam para o espaço sideral, cavernas, ilhas do tesouro, para o fundo dos oceanos, florestas encantadas e diversos outros cenários imaginários que ilustram nossas fantasias.</p>
+					<p>Quando nos tornamos adultos, continuamos sonhando com outros lugares incríveis que vimos em algum filme ou revista, desejamos conhecer outrospaíses, outras culturas e nações ao redor do planeta. Desta vez, os sonhos já não são mais fantasias e se tornam totalmente possíveis.</p>
+					<p>Em Petrópolis, existe um lugar especial, daqueles que todo mundo sonha. Planejado para viver com conforto, segurança, qualidade de vida, lazer e o melhor: a poucos minutos, das melhores atrações que você só encontra na Cidade Imperial e em Itaipava.</p>
+					<p>Viva o mellhor dos dois mundos. Petrópolis e Itaipava a poucos minutos da sua casa. Desfrute do melhor que Petrópolis pode oferecer em produtos e serviços, diversão e lazer e curta também todo a sofisticação, gastronomia,decoração, moda e todas as diversas atrações de Itaipava.<br>Conheça agora o empreendimento que vai colocar você no ponto mais estratégico de toda a Região Serrana.</p>
 				</div>
 			</div>
 		</div>
@@ -73,10 +64,10 @@
 			<h3 class="text-center">O lugar que você sonhou, mais perto do que você imaginava</h3>
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna eget leo hendrerit ullamcorper. Etiam porta nisi justo, id tincidunt felis blandit id. Nunc dignissim ut sem a rutrum. Donec lorem nibh, lacinia in odio sed, faucibus sollicitudin dolor. Donec volutpat eget ligula et tempor.
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna eget leo hendrerit ullamcorper. Etiam porta nisi justo, id tincidunt felis blandit id. Nunc dignissim ut sem a rutrum. Donec lorem nibh, lacinia in odio sed, faucibus sollicitudin dolor. Donec volutpat eget ligula et tempor.
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna eget leo hendrerit ullamcorper. Etiam porta nisi justo, id tincidunt felis blandit id. Nunc dignissim ut sem a rutrum. Donec lorem nibh, lacinia in odio sed, faucibus sollicitudin dolor. Donec volutpat eget ligula et tempor.
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna eget leo hendrerit ullamcorper. Etiam porta nisi justo, id tincidunt felis blandit id. Nunc dignissim ut sem a rutrum. Donec lorem nibh, lacinia in odio sed, faucibus sollicitudin dolor. Donec volutpat eget ligula et tempor.
+					<p>Uma das características mais importantes na escolha do lugar onde você vai morar ou investir é a localização. Estar bem localizado, além da comodidade, é uma questão de valorização. Alguns ítens como segurança, projeto arquitetônico, qualidade dos acabamentos, ítens de lazer e rentabilidade do investimento são essenciais e devem ser considerados.
+					<p>O Gran Park Residencial Club possui atrativos que vão além dos oferecidos pelo mercado. Localizado em Corrêas, apenas 10 minutos de Itaipava e 20 do centro de Petrópolis, o residencial oferece a comodidade de se desfrutar o melhor dos dois mundos. Em poucos minutos, você pode estar se deliciando com a gastronomia de Itaipava ou fazendo compras nas diversas opções que a Cidade Imperial oferece.</p>
+					<p>Mas, as vantagens começam dentro do Gran Park. O conforto de morar em um apartamento de 138m2 e aproveitar ítens de lazer como piscina, sauna seca e vapor, fitness center, espaço lounge, home cinema, salão de jogos, game center, espaço kids, espaço gourmet, redário e muito mais.</p>
+					<p>Mais confortável que isso são as condições de compra das unidades. Você pode fazer seu fluxo de pagamento dentro da tabela disponível com os nossos corretores. Mas, antes de decidir, conheça mais detalhes do Gran Park Residencial Club.</p>
 					<p><img class="img-responsive" src="<?php bloginfo('template_directory') ?>/images/home/img-central-01.jpg" alt="" />
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">

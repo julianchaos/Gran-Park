@@ -30,10 +30,14 @@ wp_nav_menu( array(
 					</nav>
 					<div class="row" role="contentinfo">
 						<div class="col-xs-4 col-xs-offset-2 col-sm-3 col-sm-offset-3 col-md-2 col-md-offset-4">
-							<img src="<?php bloginfo('template_directory') ?>/images/logo-cc.png" class="img-responsive" alt="Cúbiculo Criativo" />
+							<a href="http://cubiculocriativo.com/" target="_BLANK">
+								<img src="<?php bloginfo('template_directory') ?>/images/logo-cc-footer.png" class="img-responsive" alt="Cúbiculo Criativo" />
+							</a>
 						</div>
 						<div class="col-xs-4 col-sm-3 col-md-2">
-							<img src="<?php bloginfo('template_directory') ?>/images/logo-rds.png" class="img-responsive" alt="RDS" />
+							<a href="http://www.rds.com.br/" target="_BLANK">
+								<img src="<?php bloginfo('template_directory') ?>/images/logo-rds-footer.png" class="img-responsive" alt="RDS" />
+							</a>
 						</div>
 					</div>
 				</div>

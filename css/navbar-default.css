@@ -21,14 +21,12 @@ Text Domain: gran.park
 	border: transparent 1px solid;
 }
 .navbar-default .navbar-nav > li > a:hover {
-	color: #FFF;
-	background-color: rgba(255, 255, 255, 0.3);
+	color: #96ca0d;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
-	color: #FFF;
-	background-color: rgba(255, 255, 255, 0.3);
-	border-color: #FFF;
+	color: #96ca0d;
+	background-color: transparent;
 }
 
 @media (min-width: 768px) {
